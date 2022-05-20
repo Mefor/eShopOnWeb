@@ -3,4 +3,7 @@
 public interface IUriComposer
 {
     string ComposePicUri(string uriTemplate);
+
+    string GetServiceBusConnectionString();
+    string GetAzureFuncUrl();
 }
